@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9a6c3980ba73a7802f714bbad962fec",
+    "revision": "557302496f68fbc8687430fbaaaf2e74",
     "url": "/index.html"
   },
   {
-    "revision": "6ed9ccede7e529582a17",
+    "revision": "faa26918514f97698f16",
     "url": "/static/css/main.b76accbb.chunk.css"
   },
   {
-    "revision": "26af026a8308d7b588a8",
-    "url": "/static/js/2.fccdf077.chunk.js"
+    "revision": "006447d9c5c877d843d2",
+    "url": "/static/js/2.3bd92578.chunk.js"
   },
   {
-    "revision": "6ed9ccede7e529582a17",
-    "url": "/static/js/main.75c6c27e.chunk.js"
+    "revision": "faa26918514f97698f16",
+    "url": "/static/js/main.9ba3e57b.chunk.js"
   },
   {
     "revision": "6138eaf4a6c67cbf898e",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/animated_logo.dcd6dee2.svg"
   },
   {
+    "revision": "9de1b80fd0bc51c26f367e9bbdeadf20",
+    "url": "/static/media/aws.9de1b80f.png"
+  },
+  {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
     "url": "/static/media/blogs_image.058eca4c.svg"
   },
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
     "url": "/static/media/contactMail.5f915405.png"
+  },
+  {
+    "revision": "1008f4c7c7fffbe20aa2bca76b383a13",
+    "url": "/static/media/crocodile.1008f4c7.avif"
   },
   {
     "revision": "ebf35d7f33ebbd4a4c6cff7e66e21fdb",
@@ -192,6 +200,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ibm_logo.d3fccbe1.png"
   },
   {
+    "revision": "7c09d484dd39f5dce659881de8b8dff3",
+    "url": "/static/media/ieu.7c09d484.webp"
+  },
+  {
+    "revision": "dfc0028166feb2ccde3bcc87314b28fc",
+    "url": "/static/media/ieu.dfc00281.jpg"
+  },
+  {
     "revision": "571a8584e69ecfbe326c8b8385fbbf54",
     "url": "/static/media/iiitk_logo.571a8584.png"
   },
@@ -258,5 +274,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "/static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "d3f247e7bd6fcdcf0c95741b112c79a3",
+    "url": "/static/media/unam.svg.d3f247e7.webp"
+  },
+  {
+    "revision": "860c911f6d58738e6c5d0e27c9ab7e91",
+    "url": "/static/media/yo.860c911f.webp"
   }
 ]);
