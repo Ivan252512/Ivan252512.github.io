@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.b76accbb.chunk.css",
-    "main.js": "/static/js/main.7bf6afae.chunk.js",
-    "main.js.map": "/static/js/main.7bf6afae.chunk.js.map",
+    "main.js": "/static/js/main.9cab811f.chunk.js",
+    "main.js.map": "/static/js/main.9cab811f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0403a33d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0403a33d.js.map",
-    "static/js/2.3bd92578.chunk.js": "/static/js/2.3bd92578.chunk.js",
-    "static/js/2.3bd92578.chunk.js.map": "/static/js/2.3bd92578.chunk.js.map",
+    "static/js/2.414f65cd.chunk.js": "/static/js/2.414f65cd.chunk.js",
+    "static/js/2.414f65cd.chunk.js.map": "/static/js/2.414f65cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c9d68f177bf1bb8eb60be60cb71ca1a3.js": "/precache-manifest.c9d68f177bf1bb8eb60be60cb71ca1a3.js",
+    "precache-manifest.0405830bd5b742c05a927241211bd461.js": "/precache-manifest.0405830bd5b742c05a927241211bd461.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b76accbb.chunk.css.map": "/static/css/main.b76accbb.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -30,6 +30,7 @@
     "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
     "static/media/feelingProud.svg": "/static/media/feelingProud.2936ce95.svg",
     "static/media/fullstack.svg": "/static/media/fullstack.fce60807.svg",
+    "static/media/gbm.png": "/static/media/gbm.f8c35d4c.png",
     "static/media/gcp_logo.png": "/static/media/gcp_logo.0ee7e8c9.png",
     "static/media/github_logo.png": "/static/media/github_logo.6eeb2e81.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
@@ -53,14 +54,15 @@
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.0993e324.png",
+    "static/media/tuhabi.svg": "/static/media/tuhabi.f7a90073.svg",
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.d6363089.svg",
     "static/media/unam.svg.webp": "/static/media/unam.svg.d3f247e7.webp",
     "static/media/yo.webp": "/static/media/yo.860c911f.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.0403a33d.js",
-    "static/js/2.3bd92578.chunk.js",
+    "static/js/2.414f65cd.chunk.js",
     "static/css/main.b76accbb.chunk.css",
-    "static/js/main.7bf6afae.chunk.js"
+    "static/js/main.9cab811f.chunk.js"
   ]
 }
