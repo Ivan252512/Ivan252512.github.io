@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77dfdb22034e1c5fb804605a820f2f4d",
+    "revision": "753545d626e1712d46900d3ad5fb306e",
     "url": "/index.html"
   },
   {
-    "revision": "75c266e046f51a5e4def",
+    "revision": "83e05a8dbe26547ef86a",
     "url": "/static/css/main.b76accbb.chunk.css"
   },
   {
-    "revision": "9bc85de482a553380692",
-    "url": "/static/js/2.414f65cd.chunk.js"
+    "revision": "44fba8d31211fbd71894",
+    "url": "/static/js/2.e0dd8436.chunk.js"
   },
   {
-    "revision": "75c266e046f51a5e4def",
-    "url": "/static/js/main.d5c90873.chunk.js"
+    "revision": "83e05a8dbe26547ef86a",
+    "url": "/static/js/main.f049e297.chunk.js"
   },
   {
     "revision": "6138eaf4a6c67cbf898e",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5c77a6aed75cdad9489effd0d5ea411",
     "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
+  },
+  {
+    "revision": "82db7fb59bc09bfd9b54833b52c4e80b",
+    "url": "/static/media/MIT_Schwarzman_College_of_Computing_logo.82db7fb5.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
