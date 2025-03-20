@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac1bf6ee37fa10d6593440218091aa07",
+    "revision": "6a06be82638e538004bc0638f2659e6d",
     "url": "/index.html"
   },
   {
-    "revision": "427668bbd452a19d7ad3",
+    "revision": "8a2c61a1282339a0e9b1",
     "url": "/static/css/main.b76accbb.chunk.css"
   },
   {
-    "revision": "44fba8d31211fbd71894",
-    "url": "/static/js/2.e0dd8436.chunk.js"
+    "revision": "9c6cf50652440a3ea27e",
+    "url": "/static/js/2.bb18e2c0.chunk.js"
   },
   {
-    "revision": "427668bbd452a19d7ad3",
-    "url": "/static/js/main.e2f20a4e.chunk.js"
+    "revision": "8a2c61a1282339a0e9b1",
+    "url": "/static/js/main.d514120f.chunk.js"
   },
   {
     "revision": "6138eaf4a6c67cbf898e",
@@ -232,6 +232,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jsFramework.5b4a6449.svg"
   },
   {
+    "revision": "06e9e8db526e1143c6c3a5f043fc1fa2",
+    "url": "/static/media/konfio.06e9e8db.png"
+  },
+  {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
     "url": "/static/media/legato_logo.c597fbde.png"
   },
@@ -262,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71408db71465afd742233e4a96f06526",
     "url": "/static/media/pwa.71408db7.png"
+  },
+  {
+    "revision": "ce26b42e885bd50a28d62618b2845853",
+    "url": "/static/media/sec_ed_ab_fc.ce26b42e.png"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
