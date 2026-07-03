@@ -373,6 +373,13 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
 .tl-cta:hover { background: var(--green); color: #001b06 !important; box-shadow: 0 0 16px var(--green-glow); text-shadow: none; }
 .tech-sm { font-size: 26px; gap: 14px; margin-top: 16px; }
 
+/* Projects */
+.card.proj { display: flex; flex-direction: column; }
+.proj-year { color: var(--amber); font-size: 12px; letter-spacing: .5px; margin: -8px 0 14px; }
+.card.proj .tl-links { margin-top: auto; padding-top: 14px; }
+.card.proj .card-list li { font-size: 13.5px; }
+.tl-links a { overflow-wrap: anywhere; }
+
 /* ---------- Education ---------- */
 .edu-head { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
 .edu-head img { width: 52px; height: 52px; object-fit: contain; background: #fff; border-radius: 8px; padding: 5px; }
