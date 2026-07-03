@@ -362,9 +362,19 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
   background: var(--green-deep);
   white-space: nowrap;
 }
-.tl-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; }
+.tl-links { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 14px; }
 .tl-links a { font-size: 13px; color: var(--green); }
 .tl-links a:hover { text-shadow: 0 0 8px var(--green-glow); }
+.tl-cta {
+  background: var(--green-deep);
+  border: 1px solid var(--green-dim);
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all .2s;
+}
+.tl-cta:hover { background: var(--green); color: #001b06 !important; box-shadow: 0 0 16px var(--green-glow); text-shadow: none; }
+.tech-sm { font-size: 26px; gap: 14px; margin-top: 16px; }
 
 /* ---------- Education ---------- */
 .edu-head { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
