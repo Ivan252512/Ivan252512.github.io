@@ -2,11 +2,16 @@
 (function () {
   "use strict";
 
-  // Kill any stale service worker from the old React build so returning
-  // visitors always get the new site.
+  // Kill any stale service worker + caches from the old React build so
+  // returning visitors always get the latest site (no stale HTML).
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.getRegistrations().then(function (regs) {
       regs.forEach(function (r) { r.unregister(); });
+    }).catch(function () {});
+  }
+  if (window.caches && caches.keys) {
+    caches.keys().then(function (keys) {
+      keys.forEach(function (k) { caches.delete(k); });
     }).catch(function () {});
   }
 
