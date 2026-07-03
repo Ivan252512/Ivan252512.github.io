@@ -283,7 +283,7 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
 .about-p { color: var(--text); }
 
 /* ---------- Cards ---------- */
-.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 26px; align-items: start; }
 .card {
   background: var(--panel);
   border: 1px solid var(--border);

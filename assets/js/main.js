@@ -50,10 +50,10 @@
   /* ---------- Typewriter role ---------- */
   var roles = [
     "Software Engineer",
+    "Data Scientist",
     "Backend Architect",
     "AWS Cloud Engineer",
     "Algorithmic Trading Dev",
-    "Data-driven Builder",
   ];
   function startTyping() {
     var el = document.getElementById("typed");
