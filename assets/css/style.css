@@ -182,7 +182,7 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
   line-height: 1.05;
   margin: 6px 0 4px;
   position: relative;
-  text-shadow: 0 0 14px var(--green-glow);
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.28);
   letter-spacing: 1px;
 }
 .glitch::before, .glitch::after {
@@ -192,10 +192,11 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
   width: 100%;
   overflow: hidden;
 }
-.glitch::before { color: #00fff2; clip-path: inset(0 0 55% 0); animation: glitchTop 3.5s infinite linear alternate; }
-.glitch::after { color: #ff003c; clip-path: inset(55% 0 0 0); animation: glitchBot 2.7s infinite linear alternate; }
-@keyframes glitchTop { 0%,92%{transform:translate(0,0)} 93%{transform:translate(-3px,-2px)} 96%{transform:translate(3px,1px)} 100%{transform:translate(0,0)} }
-@keyframes glitchBot { 0%,90%{transform:translate(0,0)} 91%{transform:translate(3px,2px)} 95%{transform:translate(-2px,-1px)} 100%{transform:translate(0,0)} }
+/* subtle monochrome-green glitch (no loud RGB split) */
+.glitch::before { color: #1fbf63; opacity: .5; clip-path: inset(0 0 55% 0); animation: glitchTop 5.5s infinite linear alternate; }
+.glitch::after { color: #0a6e33; opacity: .55; clip-path: inset(55% 0 0 0); animation: glitchBot 6.5s infinite linear alternate; }
+@keyframes glitchTop { 0%,94%{transform:translate(0,0)} 95%{transform:translate(-1.5px,-1px)} 97%{transform:translate(1.5px,1px)} 100%{transform:translate(0,0)} }
+@keyframes glitchBot { 0%,93%{transform:translate(0,0)} 94%{transform:translate(1.5px,1px)} 97%{transform:translate(-1.5px,-1px)} 100%{transform:translate(0,0)} }
 
 .role { font-size: clamp(16px, 3vw, 22px); color: var(--green); margin: 4px 0; min-height: 1.5em; }
 .cursor { animation: blink 1s step-end infinite; }
