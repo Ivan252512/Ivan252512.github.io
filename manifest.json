@@ -1,6 +1,6 @@
 {
-  "short_name": "masterPortfolio",
-  "name": "masterPortfolio",
+  "short_name": "IvanPineda",
+  "name": "Carlos Iván Pineda — Portfolio",
   "icons": [
   {
    "src": "\/icons\/android-icon-36x36.png",
@@ -41,6 +41,6 @@
  ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0d0208",
+  "background_color": "#0d0208"
 }
