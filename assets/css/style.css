@@ -342,15 +342,11 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
   background: linear-gradient(180deg, rgba(0, 255, 65, 0.07), var(--panel));
   box-shadow: 0 0 26px rgba(0, 255, 65, 0.14);
 }
-.tl-logo-text {
-  font-family: var(--mono);
-  font-weight: 800;
-  font-size: 20px;
-  color: var(--green);
+.tl-logo-mark {
   background: #041a0d !important;
-  text-shadow: 0 0 10px var(--green-glow);
-  letter-spacing: 1px;
+  box-shadow: 0 0 16px rgba(0, 255, 65, 0.3);
 }
+.tl-logo-mark img { padding: 7px; filter: drop-shadow(0 0 4px var(--green-glow)); }
 .badge {
   font-size: 11px;
   color: var(--green);

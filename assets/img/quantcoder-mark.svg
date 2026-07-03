@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" fill="none" role="img" aria-label="QuantCoder">
+  <!-- left brace { -->
+  <path d="M40 18 q-12 0 -12 14 q0 14 -12 18 q12 4 12 18 q0 14 12 14"
+        stroke="#35cf63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- right brace } -->
+  <path d="M80 18 q12 0 12 14 q0 14 12 18 q-12 4 -12 18 q0 14 -12 14"
+        stroke="#35cf63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- candlesticks (ascending) -->
+  <g stroke-linecap="round">
+    <!-- candle A -->
+    <line x1="52" y1="58" x2="52" y2="75" stroke="#2fbf5a" stroke-width="2.6"/>
+    <rect x="48" y="62" width="8" height="11" rx="1.5" fill="#2fbf5a"/>
+    <!-- candle B (brighter) -->
+    <line x1="60" y1="45" x2="60" y2="67" stroke="#4ce884" stroke-width="2.6"/>
+    <rect x="56" y="50" width="8" height="15" rx="1.5" fill="#4ce884"/>
+    <!-- candle C -->
+    <line x1="68" y1="35" x2="68" y2="61" stroke="#2fbf5a" stroke-width="2.6"/>
+    <rect x="64" y="40" width="8" height="17" rx="1.5" fill="#2fbf5a"/>
+  </g>
+</svg>
