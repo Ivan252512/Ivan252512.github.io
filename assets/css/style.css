@@ -20,14 +20,13 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; overflow-x: hidden; }
 
 body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--mono);
   line-height: 1.6;
-  overflow-x: hidden;
   position: relative;
   min-height: 100vh;
 }
