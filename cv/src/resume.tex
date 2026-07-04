@@ -1,0 +1,129 @@
+\documentclass[11pt,a4paper]{article}
+
+% ------------------------------------------------------------------
+% Carlos Iván Pineda Santiago — Résumé
+% Compiles with Tectonic / XeLaTeX
+% ------------------------------------------------------------------
+\usepackage[top=1.5cm,bottom=1.5cm,left=1.7cm,right=1.7cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+% ---- Colors (black & white) ----
+\definecolor{accent}{HTML}{000000}   % all black
+\definecolor{ink}{HTML}{000000}
+\definecolor{muted}{HTML}{555555}    % neutral gray for dates/subtitles
+
+\color{ink}
+\hypersetup{colorlinks=true, urlcolor=ink, linkcolor=ink}
+
+% ---- Section styling ----
+\titleformat{\section}
+  {\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.5em}{\color{accent}\rule{\linewidth}{0.9pt}}]
+\titlespacing{\section}{0pt}{1.15em}{0.7em}
+
+\setlist[itemize]{leftmargin=1.2em, itemsep=3pt, topsep=3pt, parsep=0pt,
+  label={\color{accent}\small\textbullet}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+
+% ---- Two-line entry: title/date on line 1, subtitle/place on line 2 ----
+\newcommand{\cventry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{#1} & {\color{muted}#2}\\[2pt]
+    {\color{muted}\itshape #3} & {\color{muted}\itshape #4}\\
+  \end{tabularx}%
+  \vspace{-0.05em}%
+}
+\newcommand{\sep}{\hspace{0.4em}\textcolor{muted}{\textbullet}\hspace{0.4em}}
+
+\begin{document}
+
+% ============================ HEADER ============================
+\begin{center}
+  {\Huge\bfseries\color{ink} Carlos Iván Pineda Santiago}\\[4pt]
+  {\large\color{accent} Software Engineer \& Data Scientist \quad\textbar\quad Founder of QuantCoder}\\[8pt]
+  \small
+  +52 55 4254 5603 \sep
+  \href{mailto:ivan31416neda@gmail.com}{ivan31416neda@gmail.com} \sep
+  \href{https://ivan31416neda.com}{ivan31416neda.com}\\[3pt]
+  \href{https://www.linkedin.com/in/carlos-iván-pineda-santiago-325346107/}{linkedin.com/in/carlos-iván-pineda-santiago} \sep
+  \href{https://github.com/Ivan252512}{github.com/Ivan252512}
+\end{center}
+
+% ============================ SUMMARY ============================
+\section{Summary}
+Software Engineer \& Data Scientist with \textbf{5+ years} building scalable backend services in Python and NodeJS on \textbf{AWS}, specializing in \textbf{Fintech} and \textbf{Real Estate}. Founder of \textbf{QuantCoder}, a quantitative crypto-trading platform powered by machine learning. Certified in Data Science and Machine Learning by \textbf{MIT} and \textbf{UNAM}. I bridge robust software engineering and applied machine learning to build and deploy high-impact, data-driven products, with a strong interest in algorithmic trading and quantitative research.
+
+% ============================ EXPERIENCE ============================
+\section{Professional Experience}
+
+\cventry{QuantCoder \, — \, Founder \& Owner}{2023 -- Present}{Quantitative crypto-trading platform \, \textperiodcentered\ \, \href{https://quantcoderpro.com}{quantcoderpro.com}}{Remote}
+\begin{itemize}
+  \item Founded and built end-to-end a platform that analyzes 15+ crypto pairs (BTC, ETH, SOL, XRP, ADA, DOT\ldots) with machine-learning models trained on Binance data across multiple timeframes (4h / 1d / 1w / 1M), generating real-time \textbf{LONG / SHORT / SIDEWAYS} signals.
+  \item Automated technical-analysis charts published to Facebook and X on trend changes, plus personalized Telegram alerts to subscribers.
+  \item Web dashboard with live signals, interactive per-pair charts, GPT-4 analysis, a daily Spanish financial-news feed, and Stripe subscriptions.
+  \item 100\% serverless on AWS (Lambda, DynamoDB, Step Functions, S3, CloudFront) with clean architecture and custom Random Forest \& K-Means classifiers.
+\end{itemize}
+
+\cventry{Konfío \, — \, Software Developer (Finance)}{2024 -- Present}{Backend engineering for banking products}{Mexico City}
+\begin{itemize}
+  \item Build backend services in Python and NodeJS on AWS supporting data-intensive financial products.
+\end{itemize}
+
+\cventry{GBM \, — \, Software Developer (Finance)}{2022 -- 2024}{Trading and investment platforms}{Mexico City}
+\begin{itemize}
+  \item Developed services in Python, NodeJS and C\# for trading and investment platforms.
+  \item Integrated market data and time series into APIs used by internal tools and dashboards.
+\end{itemize}
+
+\cventry{TuHabi \, — \, Software Developer (Real Estate)}{2021 -- 2022}{PropTech backend services}{Mexico City}
+\begin{itemize}
+  \item Implemented backend services in Python (Django) and NodeJS on AWS using large real-estate datasets.
+\end{itemize}
+
+\cventry{Codster \, — \, Software Developer (Consulting)}{2019 -- 2021}{Custom software for multiple clients}{Mexico City}
+\begin{itemize}
+  \item Delivered custom backend solutions in Python, Django, Flask and NodeJS for various clients.
+\end{itemize}
+
+% ============================ PROJECTS ============================
+\section{Selected Projects}
+
+\cventry{Binance Swing Trading Bot}{2021}{Foundation of QuantCoder \, \textperiodcentered\ \, Python, ML, AWS}{}
+\begin{itemize}
+  \item Algorithmic trading bot for Binance in Python (NumPy, Scikit-learn, PyTorch, TensorFlow), deployed on AWS.
+  \item Experimented with K-Means, neural networks, Random Forest and XGBoost for pattern detection and signal generation.
+\end{itemize}
+
+\cventry{WSEN Latina \, — \, Scientific Network Website}{2018}{\href{https://wsen-latina.unam.mx}{wsen-latina.unam.mx} \, \textperiodcentered\ \, UNAM}{}
+\begin{itemize}
+  \item Scientific network website built with PHP, Apache and JavaScript.
+\end{itemize}
+
+% ============================ SKILLS ============================
+\section{Skills}
+\begin{itemize}[label={}, leftmargin=0em, itemsep=4pt]
+  \item \textbf{\color{accent}Programming:} Python, JavaScript, C\#, SQL
+  \item \textbf{\color{accent}Data Science / ML:} NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, XGBoost, Matplotlib / Seaborn
+  \item \textbf{\color{accent}Backend \& Cloud:} Django, Flask, Serverless, React, AWS (Lambda, API Gateway, S3, RDS, DynamoDB), PostgreSQL, MySQL, MongoDB, Docker
+  \item \textbf{\color{accent}Topics:} Data cleaning, exploratory data analysis, probability \& statistics, supervised \& unsupervised learning, optimization in ML, communication of results
+\end{itemize}
+
+% ============================ EDUCATION ============================
+\section{Education}
+\cventry{B.Eng. in Computer Systems}{2019}{Instituto de Estudios Universitarios (IEU)}{}
+\vspace{0.5em}
+\cventry{B.Sc. in Earth Sciences (Space Sciences)}{2018}{Universidad Nacional Autónoma de México (UNAM)}{}
+
+% ============================ CERTIFICATIONS ============================
+\section{Certifications in Data Science}
+\cventry{\href{https://olympus1.mygreatlearning.com/certificate/THUSYCVQ}{Data Science and Machine Learning: Making Data-Driven Decisions}}{2024}{MIT Schwarzman College of Computing \, \textperiodcentered\ \, \href{https://olympus1.mygreatlearning.com/certificate/THUSYCVQ}{\underline{verify}}}{}
+\vspace{0.5em}
+\cventry{\href{https://ivan31416neda.com/assets/certs/UNAM_Diplomado_Ciencia_de_Datos.pdf}{Analytical Introduction to Data Science (Diploma)}}{2025}{UNAM — Faculty of Sciences, Continuing Education \, \textperiodcentered\ \, \href{https://ivan31416neda.com/assets/certs/UNAM_Diplomado_Ciencia_de_Datos.pdf}{\underline{view diploma}}}{}
+
+\end{document}
