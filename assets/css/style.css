@@ -101,6 +101,10 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
   white-space: pre-wrap;
   line-height: 1.5;
 }
+/* On phones, center the boot lines so they read as centered */
+@media (max-width: 600px) {
+  .boot-log { text-align: center; width: 94vw; font-size: clamp(11px, 3vw, 14px); }
+}
 
 /* ---------- NAV ---------- */
 .nav {
