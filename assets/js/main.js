@@ -52,22 +52,26 @@
     })();
   }
 
-  /* ---------- Typewriter role ---------- */
-  var roles = [
-    "Software Engineer",
-    "AI Engineer",
-    "Full Stack Developer",
-    "Backend Architect",
-    "LLM / RAG Developer",
-    "AWS Cloud Engineer",
-  ];
+  /* ---------- Typewriter role (language-aware via I18N) ---------- */
+  function currentRoles() {
+    return (window.I18N && window.I18N.roles()) || ["Software Engineer"];
+  }
   function startTyping() {
     var el = document.getElementById("typed");
     if (!el) return;
-    if (reduce) { el.textContent = roles[0]; return; }
+    var roles = currentRoles();
     var r = 0, c = 0, deleting = false;
+
+    window.addEventListener("langchange", function () {
+      roles = currentRoles();
+      r = 0; c = 0; deleting = false;
+      if (reduce) el.textContent = roles[0];
+    });
+
+    if (reduce) { el.textContent = roles[0]; return; }
+
     (function tick() {
-      var word = roles[r];
+      var word = roles[r] || roles[0];
       el.textContent = word.substring(0, c);
       if (!deleting && c < word.length) { c++; setTimeout(tick, 70); }
       else if (!deleting && c === word.length) { deleting = true; setTimeout(tick, 1600); }

@@ -143,6 +143,32 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
   cursor: pointer;
 }
 
+/* Language switch */
+.nav-right { display: flex; align-items: center; gap: 12px; }
+.lang-switch {
+  display: inline-flex;
+  gap: 3px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 3px 5px;
+  border-radius: 4px;
+  line-height: 0;
+  opacity: .45;
+  transition: opacity .2s, background .2s, box-shadow .2s;
+}
+.lang-btn:hover { opacity: 1; }
+.lang-btn.active { opacity: 1; background: var(--green-deep); box-shadow: 0 0 8px rgba(0, 255, 65, 0.25); }
+.flag { display: block; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15); }
+
 /* ---------- Terminal window ---------- */
 .terminal {
   width: 100%;
