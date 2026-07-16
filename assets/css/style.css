@@ -308,6 +308,20 @@ a:hover { color: #fff; text-shadow: 0 0 8px var(--green-glow); }
 .tech i { transition: transform .2s; }
 .tech i:hover { transform: scale(1.2) translateY(-2px); }
 
+/* text chips (AI stack, etc.) */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.chip {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--green);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 4px 10px;
+  transition: border-color .2s, box-shadow .2s;
+}
+.chip:hover { border-color: var(--green-dim); box-shadow: 0 0 10px rgba(0, 255, 65, 0.15); }
+
 /* ---------- Timeline ---------- */
 .timeline { position: relative; padding-left: 8px; }
 .timeline::before {
